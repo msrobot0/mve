@@ -1,5 +1,5 @@
-const Poing = artifacts.require("Poing");
+const MVE = artifacts.require("MVE");
 
 module.exports = function(deployer) {
-  deployer.deploy(Poing);
+  deployer.deploy(MVE);
 };
