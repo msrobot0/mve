@@ -1,0 +1,10 @@
+version: '3.6'
+services:
+  base:
+    image: "node:16"
+    stdin_open: true
+    tty: true    
+    command: ${COMPOSE_COMMAND:-bash}
+    working_dir: $PWD
+    volumes:
+      - $PWD:$PWD
