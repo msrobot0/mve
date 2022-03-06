@@ -1,7 +1,8 @@
 version: '3.6'
 services:
   base:
-    image: "node:16"
+    build: .
+    image: base
     stdin_open: true
     tty: true    
     command: ${COMPOSE_COMMAND:-bash}
