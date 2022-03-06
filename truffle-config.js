@@ -18,13 +18,15 @@ module.exports = {
       network_id:1,
       gas: 3000000,
       gasPrice: 10000000000000,
-    },
-    compilers: {
-      solc: {
-        version: "0.8.3"
-      }
+    }
+  },
+
+  compilers: {
+    solc: {
+      version: "0.8.12"
     }
   }
+  
   //
   //
   // Truffle DB is currently disabled by default; to enable it, change enabled:
