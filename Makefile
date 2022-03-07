@@ -8,10 +8,10 @@ help:
 
 
 .PHONY: build
-build: ## build with yarn (or could have used npm)
-	${COMPOSE_RUN} make _build
+build: ## rebuild docker container & build node_modules
+	docker-compose build && ${COMPOSE_RUN} make _build
 _build:
-	yarn install && npm install -g truffle
+	yarn install
 
 
 .PHONY: compile
