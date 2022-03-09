@@ -2,6 +2,12 @@
 
 ---
 
+This repo represents the Minimum Viable Everything [DAO](https://ethereum.org/en/dao/) - Decentralized autonomous organization.
+
+We manage the MVT - the only coin you'll ever need.
+
+![](mvt.jpg)
+
 This repo is written using Solidity source code, which is used to create smart contracts for blockchain transactions. Solidity is utilized by several blockchain platforms, such as Ethereum, Tendermint, and Counterparty.
 
 [solidity VSCode Extenstion](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity) - Ethereum Solidity Language for Visual Studio Code
